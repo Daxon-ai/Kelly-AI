@@ -4,9 +4,9 @@ by Eliud_Lesta
 
 A simple AI chatbot with IG features.
 
-![Followers](https://img.shields.io/github/followers/Eliud_Lesta?style=social)
-![Forks](https://img.shields.io/github/forks/Eliud_Lesta/Kelly-AI?style=social)
-![Last Commit](https://img.shields.io/github/last-commit/Eliud_Lesta/Kelly-AI)
+![Followers](https://img.shields.io/github/followers/Daxon-ai?style=social)
+![Forks](https://img.shields.io/github/forks/Daxon-ai/Kelly-AI?style=social)
+![Last Commit](https://img.shields.io/github/last-commit/Daxon-ai/Kelly-AI)
 
 ## About
 Kelly AI manages IG profiles.
