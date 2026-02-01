@@ -6,7 +6,7 @@ import time
 USERNAME = "Kellyai2026"
 PASSWORD = "kel254"
 AUTO_BIO = "This is Kelly AI created by @eliud_lesta 😎"
-GROUP_ID = "your_group_thread_id"
+GROUP_ID = "https://ig.me/j/Aba2QzcutvRCkuA_/"
 
 cl = Client()
 cl.login(USERNAME, PASSWORD)
@@ -15,7 +15,7 @@ cl.account_set_bio(AUTO_BIO)
 chatbot = pipeline('text-generation', model='gpt2')
 
 def ai_reply(text):
-    reply = chatbot(text, max_length=50)[0]['generated_text']
+    reply = chatbot(text, max_length=50000)[0]['generated_text']
     return reply
 
 def auto_reply():
@@ -35,11 +35,13 @@ def auto_approve_group():
 
 def group_management():
     # Auto-react, auto-typing, etc. (add logic)
-    cl.direct_react(GROUP_ID, "❤️")
+    cl.direct_react(GROUP_ID, "😅")
     cl.direct_indicator_send(GROUP_ID, "typing")
 
 while True:
     auto_reply()
     auto_approve_group()
     group_management()
+    anti_link()
+    anti_delete()
     time.sleep(60)
